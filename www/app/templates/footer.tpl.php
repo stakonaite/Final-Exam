@@ -1,0 +1,1 @@
+<span>&copy; <?php print date('Y') ?>. Kornelija Stakonaitė, all rights reserved.</span>
