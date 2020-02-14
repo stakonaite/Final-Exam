@@ -7,7 +7,7 @@ function validate_login($filtered_input, &$form) {
     );
 
     if (!$login_success) {
-        $form['fields']['password']['error'] = 'Prisijungimo slaptazodis neteisingas!';
+        $form['fields']['password']['error'] = 'Prisijungimo slaptažodis neteisingas!';
         $form['fields']['password']['value'] = '';
         return false;
     }

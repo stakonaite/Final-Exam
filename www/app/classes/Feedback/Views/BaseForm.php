@@ -11,7 +11,7 @@ class BaseForm extends \Core\Views\Form
         $this->data = [
             'fields' => [
                 'feedback' => [
-                    'label' => 'Jūsų atsiliepimas',
+                    'label' => 'Your Feedback',
                     'type' => 'text',
                 ]
             ],

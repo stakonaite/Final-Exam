@@ -14,7 +14,12 @@ class ApiForm extends \Core\Views\Form
                     'extra' => [
                         'validators' => [
                             'validate_not_empty',
-                            'validate_max_500_characters',
+                            'validate_string_length' => [
+                                'max' => [
+                                    'value' => 500,
+                                    'message' => 'Komentaras negali viršyti 500 simbolių',
+                                ]
+                            ]
                         ]
                     ]
                 ]
